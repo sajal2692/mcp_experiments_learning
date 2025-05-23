@@ -1,0 +1,119 @@
+{
+  "2504.16902v2": {
+    "title": "Building A Secure Agentic AI Application Leveraging A2A Protocol",
+    "authors": [
+      "Idan Habler",
+      "Ken Huang",
+      "Vineeth Sai Narajala",
+      "Prashant Kulkarni"
+    ],
+    "summary": "As Agentic AI systems evolve from basic workflows to complex multi agent\ncollaboration, robust protocols such as Google's Agent2Agent (A2A) become\nessential enablers. To foster secure adoption and ensure the reliability of\nthese complex interactions, understanding the secure implementation of A2A is\nessential. This paper addresses this goal by providing a comprehensive security\nanalysis centered on the A2A protocol. We examine its fundamental elements and\noperational dynamics, situating it within the framework of agent communication\ndevelopment. Utilizing the MAESTRO framework, specifically designed for AI\nrisks, we apply proactive threat modeling to assess potential security issues\nin A2A deployments, focusing on aspects such as Agent Card management, task\nexecution integrity, and authentication methodologies.\n  Based on these insights, we recommend practical secure development\nmethodologies and architectural best practices designed to build resilient and\neffective A2A systems. Our analysis also explores how the synergy between A2A\nand the Model Context Protocol (MCP) can further enhance secure\ninteroperability. This paper equips developers and architects with the\nknowledge and practical guidance needed to confidently leverage the A2A\nprotocol for building robust and secure next generation agentic applications.",
+    "pdf_url": "http://arxiv.org/pdf/2504.16902v2",
+    "published": "2025-04-23"
+  },
+  "2505.02279v1": {
+    "title": "A survey of agent interoperability protocols: Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP)",
+    "authors": [
+      "Abul Ehtesham",
+      "Aditi Singh",
+      "Gaurav Kumar Gupta",
+      "Saket Kumar"
+    ],
+    "summary": "Large language model (LLM)-powered autonomous agents demand robust,\nstandardized protocols to integrate tools, share contextual data, and\ncoordinate tasks across heterogeneous systems. Ad-hoc integrations are\ndifficult to scale, secure, and generalize across domains. This survey examines\nfour emerging agent communication protocols: Model Context Protocol (MCP),\nAgent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent\nNetwork Protocol (ANP), each addressing interoperability in distinct deployment\ncontexts. MCP provides a JSON-RPC client-server interface for secure tool\ninvocation and typed data exchange. ACP introduces REST-native messaging via\nmulti-part messages and asynchronous streaming to support multimodal agent\nresponses. A2A enables peer-to-peer task outsourcing through capability-based\nAgent Cards, facilitating enterprise-scale workflows. ANP supports open-network\nagent discovery and secure collaboration using decentralized identifiers (DIDs)\nand JSON-LD graphs. The protocols are compared across multiple dimensions,\nincluding interaction modes, discovery mechanisms, communication patterns, and\nsecurity models. Based on the comparative analysis, a phased adoption roadmap\nis proposed: beginning with MCP for tool access, followed by ACP for multimodal\nmessaging, A2A for collaborative task execution, and extending to ANP for\ndecentralized agent marketplaces. This work provides a comprehensive foundation\nfor designing secure, interoperable, and scalable ecosystems of LLM-powered\nagents.",
+    "pdf_url": "http://arxiv.org/pdf/2505.02279v1",
+    "published": "2025-05-04"
+  },
+  "2505.03864v1": {
+    "title": "From Glue-Code to Protocols: A Critical Analysis of A2A and MCP Integration for Scalable Agent Systems",
+    "authors": [
+      "Qiaomu Li",
+      "Ying Xie"
+    ],
+    "summary": "Artificial intelligence is rapidly evolving towards multi-agent systems where\nnumerous AI agents collaborate and interact with external tools. Two key open\nstandards, Google's Agent to Agent (A2A) protocol for inter-agent communication\nand Anthropic's Model Context Protocol (MCP) for standardized tool access,\npromise to overcome the limitations of fragmented, custom integration\napproaches. While their potential synergy is significant, this paper argues\nthat effectively integrating A2A and MCP presents unique, emergent challenges\nat their intersection, particularly concerning semantic interoperability\nbetween agent tasks and tool capabilities, the compounded security risks\narising from combined discovery and execution, and the practical governance\nrequired for the envisioned \"Agent Economy\". This work provides a critical\nanalysis, moving beyond a survey to evaluate the practical implications and\ninherent difficulties of combining these horizontal and vertical integration\nstandards. We examine the benefits (e.g., specialization, scalability) while\ncritically assessing their dependencies and trade-offs in an integrated\ncontext. We identify key challenges increased by the integration, including\nnovel security vulnerabilities, privacy complexities, debugging difficulties\nacross protocols, and the need for robust semantic negotiation mechanisms. In\nsummary, A2A+MCP offers a vital architectural foundation, but fully realizing\nits potential requires substantial advancements to manage the complexities of\ntheir combined operation.",
+    "pdf_url": "http://arxiv.org/pdf/2505.03864v1",
+    "published": "2025-05-06"
+  },
+  "2505.07838v1": {
+    "title": "Moving From Monolithic To Microservices Architecture for Multi-Agent Systems",
+    "authors": [
+      "Muskaan Goyal",
+      "Pranav Bhasin"
+    ],
+    "summary": "The transition from monolithic to microservices architecture revolutionized\nsoftware development by improving scalability and maintainability. This\nparadigm shift is now becoming relevant for complex multi-agent systems (MAS).\nThis review article explores the evolution from monolithic architecture to\nmicroservices architecture in the specific context of MAS. It will highlight\nthe limitations of traditional monolithic MAS and the benefits of adopting a\nmicroservices-based approach. The article further examines the core\narchitectural principles and communication protocols, including Agent\nCommunication Languages (ACLs), the Model Context Protocol (MCP), and the\nApplication-to-Application (A2A) protocol. The article identifies emerging\narchitectural patterns, design challenges, and considerations through a\ncomparative lens of the paradigm shift.",
+    "pdf_url": "http://arxiv.org/pdf/2505.07838v1",
+    "published": "2025-05-05"
+  },
+  "2504.19678v1": {
+    "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+    "authors": [
+      "Mohamed Amine Ferrag",
+      "Norbert Tihanyi",
+      "Merouane Debbah"
+    ],
+    "summary": "Large language models and autonomous AI agents have evolved rapidly,\nresulting in a diverse array of evaluation benchmarks, frameworks, and\ncollaboration protocols. However, the landscape remains fragmented and lacks a\nunified taxonomy or comprehensive survey. Therefore, we present a side-by-side\ncomparison of benchmarks developed between 2019 and 2025 that evaluate these\nmodels and agents across multiple domains. In addition, we propose a taxonomy\nof approximately 60 benchmarks that cover general and academic knowledge\nreasoning, mathematical problem-solving, code generation and software\nengineering, factual grounding and retrieval, domain-specific evaluations,\nmultimodal and embodied tasks, task orchestration, and interactive assessments.\nFurthermore, we review AI-agent frameworks introduced between 2023 and 2025\nthat integrate large language models with modular toolkits to enable autonomous\ndecision-making and multi-step reasoning. Moreover, we present real-world\napplications of autonomous AI agents in materials science, biomedical research,\nacademic ideation, software engineering, synthetic data generation, chemical\nreasoning, mathematical problem-solving, geographic information systems,\nmultimedia, healthcare, and finance. We then survey key agent-to-agent\ncollaboration protocols, namely the Agent Communication Protocol (ACP), the\nModel Context Protocol (MCP), and the Agent-to-Agent Protocol (A2A). Finally,\nwe discuss recommendations for future research, focusing on advanced reasoning\nstrategies, failure modes in multi-agent LLM systems, automated scientific\ndiscovery, dynamic tool integration via reinforcement learning, integrated\nsearch capabilities, and security vulnerabilities in agent protocols.",
+    "pdf_url": "http://arxiv.org/pdf/2504.19678v1",
+    "published": "2025-04-28"
+  },
+  "2207.04356v1": {
+    "title": "A Comparative Study of Self-supervised Speech Representation Based Voice Conversion",
+    "authors": [
+      "Wen-Chin Huang",
+      "Shu-Wen Yang",
+      "Tomoki Hayashi",
+      "Tomoki Toda"
+    ],
+    "summary": "We present a large-scale comparative study of self-supervised speech\nrepresentation (S3R)-based voice conversion (VC). In the context of\nrecognition-synthesis VC, S3Rs are attractive owing to their potential to\nreplace expensive supervised representations such as phonetic posteriorgrams\n(PPGs), which are commonly adopted by state-of-the-art VC systems. Using\nS3PRL-VC, an open-source VC software we previously developed, we provide a\nseries of in-depth objective and subjective analyses under three VC settings:\nintra-/cross-lingual any-to-one (A2O) and any-to-any (A2A) VC, using the voice\nconversion challenge 2020 (VCC2020) dataset. We investigated S3R-based VC in\nvarious aspects, including model type, multilinguality, and supervision. We\nalso studied the effect of a post-discretization process with k-means\nclustering and showed how it improves in the A2A setting. Finally, the\ncomparison with state-of-the-art VC systems demonstrates the competitiveness of\nS3R-based VC and also sheds light on the possible improving directions.",
+    "pdf_url": "http://arxiv.org/pdf/2207.04356v1",
+    "published": "2022-07-10"
+  },
+  "2407.14861v2": {
+    "title": "Improving Bias Correction Standards by Quantifying its Effects on Treatment Outcomes",
+    "authors": [
+      "Alexandre Abraham",
+      "Andr\u00e9s Hoyos Idrobo"
+    ],
+    "summary": "With the growing access to administrative health databases, retrospective\nstudies have become crucial evidence for medical treatments. Yet,\nnon-randomized studies frequently face selection biases, requiring mitigation\nstrategies. Propensity score matching (PSM) addresses these biases by selecting\ncomparable populations, allowing for analysis without further methodological\nconstraints. However, PSM has several drawbacks. Different matching methods can\nproduce significantly different Average Treatment Effects (ATE) for the same\ntask, even when meeting all validation criteria. To prevent cherry-picking the\nbest method, public authorities must involve field experts and engage in\nextensive discussions with researchers.\n  To address this issue, we introduce a novel metric, A2A, to reduce the number\nof valid matches. A2A constructs artificial matching tasks that mirror the\noriginal ones but with known outcomes, assessing each matching method's\nperformance comprehensively from propensity estimation to ATE estimation. When\ncombined with Standardized Mean Difference, A2A enhances the precision of model\nselection, resulting in a reduction of up to 50% in ATE estimation errors\nacross synthetic tasks and up to 90% in predicted ATE variability across both\nsynthetic and real-world datasets. To our knowledge, A2A is the first metric\ncapable of evaluating outcome correction accuracy using covariates not involved\nin selection.\n  Computing A2A requires solving hundreds of PSMs, we therefore automate all\nmanual steps of the PSM pipeline. We integrate PSM methods from Python and R,\nour automated pipeline, a new metric, and reproducible experiments into\npopmatch, our new Python package, to enhance reproducibility and accessibility\nto bias correction methods.",
+    "pdf_url": "http://arxiv.org/pdf/2407.14861v2",
+    "published": "2024-07-20"
+  },
+  "2505.12490v1": {
+    "title": "Proposal for Improving Google A2A Protocol: Safeguarding Sensitive Data in Multi-Agent Systems",
+    "authors": [
+      "Yedidel Louck",
+      "Ariel Stulman",
+      "Amit Dvir"
+    ],
+    "summary": "A2A, a protocol for AI agent communication, offers a robust foundation for\nsecure AI agent communication. However, it has several critical issues in\nhandling sensitive data, such as payment details, identification documents, and\npersonal information. This paper reviews the existing protocol, identifies its\nlimitations, and proposes specific enhancements to improve security, privacy,\nand trust. It includes a concrete example to illustrate the problem and\nsolution, research-backed rationales, and implementation considerations,\ndrawing on prior studies to strengthen the arguments and proposed solutions.\nThis proposal includes seven enhancements: short-lived tokens, customer\nauthentication (SCA), granular scopes, explicit consent, direct data transfer,\nmulti-transaction approval, and payment standard compliance. The vacation\nbooking example illustrates how these enhancements reduce risks and enhance\nuser experience.",
+    "pdf_url": "http://arxiv.org/pdf/2505.12490v1",
+    "published": "2025-05-18"
+  },
+  "2301.12229v1": {
+    "title": "Path Loss Analysis for Low-Altitude Air-to-Air Millimeter-Wave Channel in Built-Up Area",
+    "authors": [
+      "Zhuangzhuang Cui",
+      "Abdul Saboor",
+      "Achiel Colpaert",
+      "Sofie Pollin"
+    ],
+    "summary": "Communications between unmanned aerial vehicles (UAVs) play an important role\nin deploying aerial networks. Although some studies reveal that drone-based\nair-to-air (A2A) channels are relatively clear and thus can be modeled as\nfree-space propagation, such an assumption may not be applicable to drones\nflying in low altitudes of built-up environments. In practice, low-altitude A2A\nchannel modeling becomes more challenging in urban scenarios since buildings\ncan obstruct the line-of-sight (LOS) path, and multipaths from buildings lead\nto additional losses. Therefore, we herein focus on modeling low-altitude A2A\nchannels considering a generic urban deployment, where we introduce the\nevidence of the small-size first Fresnel zone at the millimeter-wave (mmWave)\nband to approximately derive the LOS probability. Then, the path loss under\ndifferent propagation conditions is investigated to obtain an integrated path\nloss model. In addition, we incorporate the impact of imperfect beam alignment\non the path loss, where the relation between path loss fluctuation and beam\nmisalignment level is modeled as an exponential form. Finally, comparisons with\nthe 3GPP model show the effectiveness of the proposed analytical model.\nNumerical simulations in different environments and heights provide practical\ndeployment guidance for aerial networks.",
+    "pdf_url": "http://arxiv.org/pdf/2301.12229v1",
+    "published": "2023-01-28"
+  },
+  "2203.10274v1": {
+    "title": "Exploiting Cross Domain Acoustic-to-articulatory Inverted Features For Disordered Speech Recognition",
+    "authors": [
+      "Shujie Hu",
+      "Shansong Liu",
+      "Xurong Xie",
+      "Mengzhe Geng",
+      "Tianzi Wang",
+      "Shoukang Hu",
+      "Mingyu Cui",
+      "Xunying Liu",
+      "Helen Meng"
+    ],
+    "summary": "Articulatory features are inherently invariant to acoustic signal distortion\nand have been successfully incorporated into automatic speech recognition (ASR)\nsystems for normal speech. Their practical application to disordered speech\nrecognition is often limited by the difficulty in collecting such specialist\ndata from impaired speakers. This paper presents a cross-domain\nacoustic-to-articulatory (A2A) inversion approach that utilizes the parallel\nacoustic-articulatory data of the 15-hour TORGO corpus in model training before\nbeing cross-domain adapted to the 102.7-hour UASpeech corpus and to produce\narticulatory features. Mixture density networks based neural A2A inversion\nmodels were used. A cross-domain feature adaptation network was also used to\nreduce the acoustic mismatch between the TORGO and UASpeech data. On both\ntasks, incorporating the A2A generated articulatory features consistently\noutperformed the baseline hybrid DNN/TDNN, CTC and Conformer based end-to-end\nsystems constructed using acoustic features only. The best multi-modal system\nincorporating video modality and the cross-domain articulatory features as well\nas data augmentation and learning hidden unit contributions (LHUC) speaker\nadaptation produced the lowest published word error rate (WER) of 24.82% on the\n16 dysarthric speakers of the benchmark UASpeech task.",
+    "pdf_url": "http://arxiv.org/pdf/2203.10274v1",
+    "published": "2022-03-19"
+  }
+}

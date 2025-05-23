@@ -1,0 +1,67 @@
+{
+  "2401.06836v3": {
+    "title": "Enhancing Emotional Generation Capability of Large Language Models via Emotional Chain-of-Thought",
+    "authors": [
+      "Zaijing Li",
+      "Gongwei Chen",
+      "Rui Shao",
+      "Yuquan Xie",
+      "Dongmei Jiang",
+      "Liqiang Nie"
+    ],
+    "summary": "Large Language Models (LLMs) have shown remarkable performance in various\nemotion recognition tasks, thereby piquing the research community's curiosity\nfor exploring their potential in emotional intelligence. However, several\nissues in the field of emotional generation tasks remain unresolved, including\nhuman preference alignment and emotional generation assessment. In this paper,\nwe propose the Emotional Chain-of-Thought (ECoT), a plug-and-play prompting\nmethod that enhances the performance of LLMs on various emotional generation\ntasks by aligning with human emotional intelligence guidelines. To assess the\nreliability of ECoT, we propose an automated model-based evaluation method\ncalled Emotional Generation Score (EGS). EGS incorporates Goleman's Emotional\nIntelligence Theory as a consensus of human experts, providing a new\nperspective on the evaluation of emotional generation tasks. Extensive\nexperimental results demonstrate the effectiveness of ECoT and EGS. Further, we\ndiscuss the promise of LLMs in the field of emotional intelligence and present\nkey insights into the LLMs with the ECoT in emotional generation tasks.",
+    "pdf_url": "http://arxiv.org/pdf/2401.06836v3",
+    "published": "2024-01-12"
+  },
+  "2402.11801v1": {
+    "title": "Enhancing Empathetic Response Generation by Augmenting LLMs with Small-scale Empathetic Models",
+    "authors": [
+      "Zhou Yang",
+      "Zhaochun Ren",
+      "Wang Yufeng",
+      "Shizhong Peng",
+      "Haizhou Sun",
+      "Xiaofei Zhu",
+      "Xiangwen Liao"
+    ],
+    "summary": "Empathetic response generation is increasingly significant in AI,\nnecessitating nuanced emotional and cognitive understanding coupled with\narticulate response expression. Current large language models (LLMs) excel in\nresponse expression; however, they lack the ability to deeply understand\nemotional and cognitive nuances, particularly in pinpointing fine-grained\nemotions and their triggers. Conversely, small-scale empathetic models (SEMs)\noffer strength in fine-grained emotion detection and detailed emotion cause\nidentification. To harness the complementary strengths of both LLMs and SEMs,\nwe introduce a Hybrid Empathetic Framework (HEF). HEF regards SEMs as flexible\nplugins to improve LLM's nuanced emotional and cognitive understanding.\nRegarding emotional understanding, HEF implements a two-stage emotion\nprediction strategy, encouraging LLMs to prioritize primary emotions emphasized\nby SEMs, followed by other categories, substantially alleviates the\ndifficulties for LLMs in fine-grained emotion detection. Regarding cognitive\nunderstanding, HEF employs an emotion cause perception strategy, prompting LLMs\nto focus on crucial emotion-eliciting words identified by SEMs, thus boosting\nLLMs' capabilities in identifying emotion causes. This collaborative approach\nenables LLMs to discern emotions more precisely and formulate empathetic\nresponses. We validate HEF on the Empathetic-Dialogue dataset, and the findings\nindicate that our framework enhances the refined understanding of LLMs and\ntheir ability to convey empathetic responses.",
+    "pdf_url": "http://arxiv.org/pdf/2402.11801v1",
+    "published": "2024-02-19"
+  },
+  "2408.03150v1": {
+    "title": "Conditioning LLMs with Emotion in Neural Machine Translation",
+    "authors": [
+      "Charles Brazier",
+      "Jean-Luc Rouas"
+    ],
+    "summary": "Large Language Models (LLMs) have shown remarkable performance in Natural\nLanguage Processing tasks, including Machine Translation (MT). In this work, we\npropose a novel MT pipeline that integrates emotion information extracted from\na Speech Emotion Recognition (SER) model into LLMs to enhance translation\nquality. We first fine-tune five existing LLMs on the Libri-trans dataset and\nselect the most performant model. Subsequently, we augment LLM prompts with\ndifferent dimensional emotions and train the selected LLM under these different\nconfigurations. Our experiments reveal that integrating emotion information,\nespecially arousal, into LLM prompts leads to notable improvements in\ntranslation quality.",
+    "pdf_url": "http://arxiv.org/pdf/2408.03150v1",
+    "published": "2024-08-06"
+  },
+  "2409.10157v1": {
+    "title": "Emo-DPO: Controllable Emotional Speech Synthesis through Direct Preference Optimization",
+    "authors": [
+      "Xiaoxue Gao",
+      "Chen Zhang",
+      "Yiming Chen",
+      "Huayun Zhang",
+      "Nancy F. Chen"
+    ],
+    "summary": "Current emotional text-to-speech (TTS) models predominantly conduct\nsupervised training to learn the conversion from text and desired emotion to\nits emotional speech, focusing on a single emotion per text-speech pair. These\nmodels only learn the correct emotional outputs without fully comprehending\nother emotion characteristics, which limits their capabilities of capturing the\nnuances between different emotions. We propose a controllable Emo-DPO approach,\nwhich employs direct preference optimization to differentiate subtle emotional\nnuances between emotions through optimizing towards preferred emotions over\nless preferred emotional ones. Instead of relying on traditional neural\narchitectures used in existing emotional TTS models, we propose utilizing the\nemotion-aware LLM-TTS neural architecture to leverage LLMs' in-context learning\nand instruction-following capabilities. Comprehensive experiments confirm that\nour proposed method outperforms the existing baselines.",
+    "pdf_url": "http://arxiv.org/pdf/2409.10157v1",
+    "published": "2024-09-16"
+  },
+  "2309.13136v1": {
+    "title": "Contextual Emotion Estimation from Image Captions",
+    "authors": [
+      "Vera Yang",
+      "Archita Srivastava",
+      "Yasaman Etesam",
+      "Chuxuan Zhang",
+      "Angelica Lim"
+    ],
+    "summary": "Emotion estimation in images is a challenging task, typically using computer\nvision methods to directly estimate people's emotions using face, body pose and\ncontextual cues. In this paper, we explore whether Large Language Models (LLMs)\ncan support the contextual emotion estimation task, by first captioning images,\nthen using an LLM for inference. First, we must understand: how well do LLMs\nperceive human emotions? And which parts of the information enable them to\ndetermine emotions? One initial challenge is to construct a caption that\ndescribes a person within a scene with information relevant for emotion\nperception. Towards this goal, we propose a set of natural language descriptors\nfor faces, bodies, interactions, and environments. We use them to manually\ngenerate captions and emotion annotations for a subset of 331 images from the\nEMOTIC dataset. These captions offer an interpretable representation for\nemotion estimation, towards understanding how elements of a scene affect\nemotion perception in LLMs and beyond. Secondly, we test the capability of a\nlarge language model to infer an emotion from the resulting image captions. We\nfind that GPT-3.5, specifically the text-davinci-003 model, provides\nsurprisingly reasonable emotion predictions consistent with human annotations,\nbut accuracy can depend on the emotion concept. Overall, the results suggest\npromise in the image captioning and LLM approach.",
+    "pdf_url": "http://arxiv.org/pdf/2309.13136v1",
+    "published": "2023-09-22"
+  }
+}

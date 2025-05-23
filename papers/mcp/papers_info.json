@@ -1,0 +1,68 @@
+{
+  "2504.08999v1": {
+    "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers",
+    "authors": [
+      "Arash Ahmadi",
+      "Sarah Sharif",
+      "Yaser M. Banad"
+    ],
+    "summary": "Large Language Models (LLMs) are increasingly augmented with external tools\nthrough standardized interfaces like the Model Context Protocol (MCP). However,\ncurrent MCP implementations face critical limitations: they typically require\nlocal process execution through STDIO transports, making them impractical for\nresource-constrained environments like mobile devices, web browsers, and edge\ncomputing. We present MCP Bridge, a lightweight RESTful proxy that connects to\nmultiple MCP servers and exposes their capabilities through a unified API.\nUnlike existing solutions, MCP Bridge is fully LLM-agnostic, supporting any\nbackend regardless of vendor. The system implements a risk-based execution\nmodel with three security levels standard execution, confirmation workflow, and\nDocker isolation while maintaining backward compatibility with standard MCP\nclients. Complementing this server-side infrastructure is a Python based MCP\nGemini Agent that facilitates natural language interaction with MCP tools. The\nevaluation demonstrates that MCP Bridge successfully addresses the constraints\nof direct MCP connections while providing enhanced security controls and\ncross-platform compatibility, enabling sophisticated LLM-powered applications\nin previously inaccessible environments",
+    "pdf_url": "http://arxiv.org/pdf/2504.08999v1",
+    "published": "2025-04-11"
+  },
+  "1711.03897v2": {
+    "title": "High collection efficiency MCPs for photon counting detectors",
+    "authors": [
+      "D. A. Orlov",
+      "T. Ruardij",
+      "S. Duarte Pinto",
+      "R. Glazenborg",
+      "E. Kernen"
+    ],
+    "summary": "Multi Micro-Channel-Plate Photomultiplier tubes (MCP-PMT) with High\nCollection Efficiency (Hi-CE) MCPs are developed and characterised. With these\nHi-CE MCPs more than 90% of photoelectrons emitted from the photocathode can be\ndetected; this is in contrast to conventional MCPs where about 50% of\nphotoelectrons are lost at the MCP stage. The drawback of the Hi-CE MCPs is a\nsmall degradation of the transfer time spread (TTS). However for applications\nwhere no sub-ns time resolution is required the implementation of Hi-CE MCPs is\nextremely beneficial, as it improves the detection efficiency of the MCP-PMT\nalmost by a factor of two.",
+    "pdf_url": "http://arxiv.org/pdf/1711.03897v2",
+    "published": "2017-11-10"
+  },
+  "1808.07824v1": {
+    "title": "Characteristics of fast timing MCP-PMTs in magnetic fields",
+    "authors": [
+      "Mohammad Hattawy",
+      "Junqi Xie",
+      "Mickey Chiu",
+      "Marcel Demarteau",
+      "Kawtar Hafidi",
+      "Edward May",
+      "Jose Repond",
+      "Robert Wagner",
+      "Lei Xia",
+      "Carl Zorn"
+    ],
+    "summary": "The motivation of this paper is to explore the parameters that affect the\nperformance of Microchannel Plate Photomultiplier Tubes (MCP-PMTs) in magnetic\nfields with the goal to guide their design to achieve a high magnetic field\ntolerance. MCP-PMTs based on two different designs were tested.The magnetic\nfield tolerance of MCP-PMT based on a design providing independently biased\nvoltages showed a significant improvement (up to 0.7 T) compared to the one\nutilizing an internal resistor chain design (up to 0.1 T), indicating the\nimportance of individually adjustable voltages. The effects of the rotation\nangle of the MCP-PMT relative to the magnetic field direction and of the bias\nvoltage between the photocathode and the top MCP were extensively investigated\nusing the MCP-PMT based on the independently biased voltage design. It was\nfound that the signal amplitude of the MCP-PMT exhibits an enhanced performance\nat a tilt angle of $\\pm$8$^{\\circ}$, due to the 8$^{\\circ}$ bias angle of the\nMCP pores. The maximum signal amplitude was observed at different bias voltages\ndepending on the magnetic field strength.",
+    "pdf_url": "http://arxiv.org/pdf/1808.07824v1",
+    "published": "2018-08-23"
+  },
+  "2504.12757v2": {
+    "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+    "authors": [
+      "Sonu Kumar",
+      "Anubhav Girdhar",
+      "Ritesh Patil",
+      "Divyansh Tripathi"
+    ],
+    "summary": "As Agentic AI gain mainstream adoption, the industry invests heavily in model\ncapabilities, achieving rapid leaps in reasoning and quality. However, these\nsystems remain largely confined to data silos, and each new integration\nrequires custom logic that is difficult to scale. The Model Context Protocol\n(MCP) addresses this challenge by defining a universal, open standard for\nsecurely connecting AI-based applications (MCP clients) to data sources (MCP\nservers). However, the flexibility of the MCP introduces new risks, including\nmalicious tool servers and compromised data integrity. We present MCP Guardian,\na framework that strengthens MCP-based communication with authentication,\nrate-limiting, logging, tracing, and Web Application Firewall (WAF) scanning.\nThrough real-world scenarios and empirical testing, we demonstrate how MCP\nGuardian effectively mitigates attacks and ensures robust oversight with\nminimal overheads. Our approach fosters secure, scalable data access for AI\nassistants, underscoring the importance of a defense-in-depth approach that\nenables safer and more transparent innovation in AI-driven environments.",
+    "pdf_url": "http://arxiv.org/pdf/2504.12757v2",
+    "published": "2025-04-17"
+  },
+  "1811.05633v1": {
+    "title": "A Volume-Limited Survey of mCP Stars Within 100pc I: Fundamental Parameters and Chemical Abundances",
+    "authors": [
+      "J. Sikora",
+      "G. A. Wade",
+      "J. Power",
+      "C. Neiner"
+    ],
+    "summary": "We present the first results of a volume-limited survey of main sequence (MS)\nmagnetic chemically peculiar (mCP) stars. The sample consists of all identified\nintermediate-mass MS stars (mCP and non-mCP) within a heliocentric distance of\n$100\\,{\\rm pc}$ as determined using Hipparcos parallaxes. The two populations\nare compared in order to determine the unique properties that allow a small\nfraction of MS stars with masses $\\gtrsim1.4\\,M_\\odot$ to host strong, large\nscale magnetic fields. A total of 52 confirmed mCP stars are identified using\npublished magnetic, spectroscopic, and photometric observations along with\narchived and newly obtained spectropolarimetric (Stokes $V$) observations. We\nderive the fundamental parameters (effective temperatures, luminosities,\nmasses, and evolutionary states) of the mCP and non-mCP populations using\nhomogeneous analyses. A detailed analysis of the mCP stars is performed using\nthe {\\sc llmodels} code, which allows observed spectral energy distributions to\nbe modeled while incorporating chemical peculiarities and magnetic fields. The\nsurface gravities and mean chemical abundances are derived by modelling\naveraged spectra using the {\\sc gssp} and {\\sc zeeman} spectral synthesis\ncodes. Masses and stellar ages are derived using modern, densely calculated\nevolutionary model grids. We confirm a number of previously reported\nevolutionary properties associated with mCP stars including a conspicuously\nhigh incidence of middle-aged MS stars with respect to the non-mCP subsample;\nthe incidence of mCP stars is found to sharply increase with mass from\n$0.3$~per~cent at $1.5\\,M_\\odot$ to $\\approx11$~per~cent at $3.8\\,M_\\odot$.\nFinally, we identify clear trends in the mean photospheric chemical abundances\nwith stellar age.",
+    "pdf_url": "http://arxiv.org/pdf/1811.05633v1",
+    "published": "2018-11-14"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "0908.1076v1": {
+    "title": "Multi-Agent Model Predictive Control: A Survey",
+    "authors": [
+      "R. R. Negenborn",
+      "B. De Schutter",
+      "J. Hellendoorn"
+    ],
+    "summary": "In this report we define characteristic control design elements and show how\nconventional single-agent MPC implements these. We survey recent literature on\nmulti-agent MPC and discuss how this literature deals with decomposition,\nproblem assignment, and cooperation.",
+    "pdf_url": "http://arxiv.org/pdf/0908.1076v1",
+    "published": "2009-08-07"
+  },
+  "2503.19213v1": {
+    "title": "A Survey of Large Language Model Agents for Question Answering",
+    "authors": [
+      "Murong Yue"
+    ],
+    "summary": "This paper surveys the development of large language model (LLM)-based agents\nfor question answering (QA). Traditional agents face significant limitations,\nincluding substantial data requirements and difficulty in generalizing to new\nenvironments. LLM-based agents address these challenges by leveraging LLMs as\ntheir core reasoning engine. These agents achieve superior QA results compared\nto traditional QA pipelines and naive LLM QA systems by enabling interaction\nwith external environments. We systematically review the design of LLM agents\nin the context of QA tasks, organizing our discussion across key stages:\nplanning, question understanding, information retrieval, and answer generation.\nAdditionally, this paper identifies ongoing challenges and explores future\nresearch directions to enhance the performance of LLM agent QA systems.",
+    "pdf_url": "http://arxiv.org/pdf/2503.19213v1",
+    "published": "2025-03-24"
+  },
+  "1711.09223v1": {
+    "title": "Malaria Likelihood Prediction By Effectively Surveying Households Using Deep Reinforcement Learning",
+    "authors": [
+      "Pranav Rajpurkar",
+      "Vinaya Polamreddi",
+      "Anusha Balakrishnan"
+    ],
+    "summary": "We build a deep reinforcement learning (RL) agent that can predict the\nlikelihood of an individual testing positive for malaria by asking questions\nabout their household. The RL agent learns to determine which survey question\nto ask next and when to stop to make a prediction about their likelihood of\nmalaria based on their responses hitherto. The agent incurs a small penalty for\neach question asked, and a large reward/penalty for making the correct/wrong\nprediction; it thus has to learn to balance the length of the survey with the\naccuracy of its final predictions. Our RL agent is a Deep Q-network that learns\na policy directly from the responses to the questions, with an action defined\nfor each possible survey question and for each possible prediction class. We\nfocus on Kenya, where malaria is a massive health burden, and train the RL\nagent on a dataset of 6481 households from the Kenya Malaria Indicator Survey\n2015. To investigate the importance of having survey questions be adaptive to\nresponses, we compare our RL agent to a supervised learning (SL) baseline that\nfixes its set of survey questions a priori. We evaluate on prediction accuracy\nand on the number of survey questions asked on a holdout set and find that the\nRL agent is able to predict with 80% accuracy, using only 2.5 questions on\naverage. In addition, the RL agent learns to survey adaptively to responses and\nis able to match the SL baseline in prediction accuracy while significantly\nreducing survey length.",
+    "pdf_url": "http://arxiv.org/pdf/1711.09223v1",
+    "published": "2017-11-25"
+  },
+  "2407.19354v1": {
+    "title": "The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies",
+    "authors": [
+      "Feng He",
+      "Tianqing Zhu",
+      "Dayong Ye",
+      "Bo Liu",
+      "Wanlei Zhou",
+      "Philip S. Yu"
+    ],
+    "summary": "Inspired by the rapid development of Large Language Models (LLMs), LLM agents\nhave evolved to perform complex tasks. LLM agents are now extensively applied\nacross various domains, handling vast amounts of data to interact with humans\nand execute tasks. The widespread applications of LLM agents demonstrate their\nsignificant commercial value; however, they also expose security and privacy\nvulnerabilities. At the current stage, comprehensive research on the security\nand privacy of LLM agents is highly needed. This survey aims to provide a\ncomprehensive overview of the newly emerged privacy and security issues faced\nby LLM agents. We begin by introducing the fundamental knowledge of LLM agents,\nfollowed by a categorization and analysis of the threats. We then discuss the\nimpacts of these threats on humans, environment, and other agents.\nSubsequently, we review existing defensive strategies, and finally explore\nfuture trends. Additionally, the survey incorporates diverse case studies to\nfacilitate a more accessible understanding. By highlighting these critical\nsecurity and privacy issues, the survey seeks to stimulate future research\ntowards enhancing the security and privacy of LLM agents, thereby increasing\ntheir reliability and trustworthiness in future applications.",
+    "pdf_url": "http://arxiv.org/pdf/2407.19354v1",
+    "published": "2024-07-28"
+  },
+  "2412.03920v1": {
+    "title": "A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios",
+    "authors": [
+      "Xiachong Feng",
+      "Longxu Dou",
+      "Ella Li",
+      "Qinghao Wang",
+      "Haochuan Wang",
+      "Yu Guo",
+      "Chang Ma",
+      "Lingpeng Kong"
+    ],
+    "summary": "Game-theoretic scenarios have become pivotal in evaluating the social\nintelligence of Large Language Model (LLM)-based social agents. While numerous\nstudies have explored these agents in such settings, there is a lack of a\ncomprehensive survey summarizing the current progress. To address this gap, we\nsystematically review existing research on LLM-based social agents within\ngame-theoretic scenarios. Our survey organizes the findings into three core\ncomponents: Game Framework, Social Agent, and Evaluation Protocol. The game\nframework encompasses diverse game scenarios, ranging from choice-focusing to\ncommunication-focusing games. The social agent part explores agents'\npreferences, beliefs, and reasoning abilities. The evaluation protocol covers\nboth game-agnostic and game-specific metrics for assessing agent performance.\nBy reflecting on the current research and identifying future research\ndirections, this survey provides insights to advance the development and\nevaluation of social agents in game-theoretic scenarios.",
+    "pdf_url": "http://arxiv.org/pdf/2412.03920v1",
+    "published": "2024-12-05"
+  }
+}
